@@ -1,0 +1,7 @@
+[package]
+description = Packet source plugin that provides native Netmap support.
+tags = packet source, plugin, netmap
+plugin_dir = build
+script_dir = scripts/Zeek/Netmap
+build_command = ./configure && make
+test_command = cd tests && btest
